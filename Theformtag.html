@@ -1,0 +1,325 @@
+<html>
+  
+    <head>
+
+      <title>The Form Tag</title>
+    
+    </head>
+
+    <body style="background-color: aquamarine;">
+      
+      <form action="/" method="POST">
+        
+        <div>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" value="Rohit Bose">
+        
+        </div>
+
+        <div>
+
+          <label for="age">Age</label>
+          <input type="number" id="age" min="18" max="60" value="33">
+        
+        </div>
+
+        <div>
+
+          <label for="date">Date</label>
+          <input type="date" id="date">
+        
+        </div>
+
+        <div>
+
+          <label for="month">Month</label>
+          <input type="month" id="month">
+        
+        </div>
+
+        <div>
+
+          <label for="week">Week</label>
+          <input type="week" id="week">
+        
+        </div>
+
+        <div>
+
+          <label>Select Favorite Fruit</label>
+          <input type="radio" name="fruits" id="apple" checked> Apple
+          <input type="radio" name="fruits" id="banana"> Banana
+          <input type="radio" name="fruits" id="orange"> Orange
+        
+        </div>
+
+        <div>
+          
+          <label>Select Favorite Fruit</label>
+          <input type="checkbox" name="fruits" id="apple"> Apple
+          <input type="checkbox" name="fruits" id="banana"> Banana
+          <input type="checkbox" name="fruits" id="orange" checked> Orange
+
+        </div>
+
+        <div>
+
+          <label for="color">Select Favorite Color</label>
+          <input type="color" name="color" id="color" value="#ff0000">
+
+        </div>
+
+      </form>
+
+      <hr>
+
+      <p>Activity #1</p>
+
+      <h1 title="This is the title">Daenerys Targaryen</h1>
+
+      <h2>Jon Snow</h2>
+
+      <h3>Jorah Mormont</h3>
+
+      <h4>Sansa Stark</h4>
+
+      <h5>Arya Stark</h5>
+
+      <h6>Theon Greyjoy</h6>
+
+      <div>
+
+        <p title="This is a title">Game of Thrones</p>
+
+      </div>
+
+      <p>
+        The characters from the medieval fantasy television series Game of Thrones are based on their respective counterparts from author George R.R. Martin's A Song of Ice and Fire series of novels.
+      </p>
+
+      <hr>
+
+      <form action="/" method="post">
+
+        <div>
+
+          <label for="gender">I am</label>
+
+          <select name="gender" id="gender">
+            <option value="male" selected>Male</option>
+            <option value="female">Female</option>
+          </select>
+
+        </div>
+
+        <div>
+
+          <label for="about">About Me</label>
+          <textarea name="about" id="about" cols="50" rows="10" style="vertical-align: top;" placeholder="I am trying to learn more each day" minlength="20" maxlength="100"></textarea>
+
+        </div>
+
+        <div>
+
+          <label for="about">About Me</label>
+          <textarea name="about" id="about" cols="50" rows="10" style="vertical-align: top;" placeholder="I am trying to learn more each day" minlength="20" maxlength="100" disabled></textarea>
+
+        </div>
+
+        <div>
+
+          <label for="about">About Me</label>
+          <textarea name="about" id="about" cols="50" rows="10" style="vertical-align: top;" placeholder="I am trying to learn more each day" minlength="20" maxlength="100" readonly>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis impedit error dolorem aliquam voluptas voluptates quas sequi dolor odit, distinctio ab ipsum atque veniam nobis sunt unde rerum necessitatibus cupiditate, nesciunt possimus amet! Excepturi inventore dolorum, hic ullam perferendis quia et doloremque autem voluptatum? Minima harum aliquam necessitatibus adipisci dignissimos eligendi quia temporibus nam autem? Repudiandae odit consequuntur vero voluptas! Et, recusandae repellendus officiis doloremque error magnam quisquam iure quas repellat, laborum nulla expedita laboriosam fuga. Ipsum doloribus praesentium inventore odit soluta error saepe, nisi aspernatur aut, iusto exercitationem necessitatibus, commodi dolor culpa quam sed consequatur officia nihil illo animi.</textarea>
+
+        </div>
+
+      </form>
+
+      <hr>  
+
+      <p>Activity #2</p>
+
+      <h1>Tell us somthing about yourself</h1>
+      <form action="/" method="POST">
+
+      <div>
+
+        <label for="name">My name is</label>
+        <input type="text" name="name" id="name" />
+
+      </div>
+
+      <div>
+
+        <label for="email">My email is</label>
+        <input type="email" name="email" id="email" />
+
+      </div>
+
+      <div>
+
+        <label for="gender"> I am a</label>
+
+        <select name="gender" id="gender">
+
+          <option value="male">Male</option>
+          <option value="female" selected>Female</option>
+
+        </select>
+
+      </div>
+
+      <div>
+
+        <label for="about">I have worked as</label>
+
+        <textarea name="about" id="about" cols="50" rows="10" style="vertical-align: top;" placeholder="I am a..." minlength="10" maxlength="100">Rajesh Ramayan Koothrappali, Ph. D. is a fictional character on the CBS television series The Big Bang Theory, portrayed by British Indian actor Kunal Nayyar. Raj is based on a computer programmer that the show's co-creator, Bill Prady, knew back when he himself was a programmer.
+        </textarea>
+
+
+      </div>
+
+      </form>
+
+      <hr>
+
+      <form action="/" method="GET">
+
+        <div>
+
+          <label for="email" style="color: blueviolet; font-size: 20px;">Email</label>
+          <input type="email" name="email" id="email" style="background-color: gray; font-size: 20px;">
+
+        </div>
+
+        <div>
+          
+          <label for="password" style="color: blueviolet; font-size: 20px;">Password</label>
+          <input type="password" name="password" id="password" style="background-color: gray; font-size: 20px;">
+
+        </div>
+
+        <div>
+
+        <!-- <input type="submit" value="Submit"> -->
+
+          <button type="Submit" style="background-color: goldenrod; color: white;font-size: 24px; padding: 2px; border: 5px solid black;">Submit</button>
+
+          <button type="reset" style="background-color: greenyellow; color: green;font-size: 24px; padding: 2px; border: 5px solid black;">Reset</button>
+
+          <button type="button" style="background-color: gold; color: blueviolet;font-size: 24px; padding: 2px; border: 5px solid black;">Button(will be using while using javascript)</button>
+
+        </div>
+
+      </form>
+      <hr>
+
+      <form>
+
+        <label for="brand">Select a brand</label>
+        <input type="text" name="brand" id="brand" list="brands">
+
+        <datalist id="brands">
+          <option value="Reebok"></option>
+          <option value="Adidas"></option>
+          <option value="Nike"></option>
+          <option value="Skechers"></option>
+          <option value="DKS"></option>
+        </datalist>
+
+      </form>
+
+      <hr>
+
+      <p>A final contact form</p>
+
+      <form action="/" method="get">
+
+        <table>
+
+          <tbody>
+
+            <tr>
+
+              <td><label for="name">Name</label></td>
+              <td><input type="text" name="name" id="name" required></td>
+
+            </tr>
+            
+            <tr>
+
+              <td><label for="email">Email</label></td>
+              <td><input type="email" name="email" id="email" required></td>
+
+            </tr>
+            
+            <tr>
+
+              <td><label for="phone">Phone</label></td>
+              <td><input type="tel" name="phone" id="phone" minlength="10" maxlength="10"></td>
+
+            </tr>
+
+            
+            <tr>
+
+              <td><label>Gender</label></td>
+              <td>
+                <input type="radio" name="gender" id="male">Male
+                <input type="radio" name="gender" id="female">Female
+              </td>
+
+            </tr>
+
+            
+            <tr>
+
+              <td><label for="profession">Profession</label></td>
+              <td>
+                <select name="profession" id="profession">
+                  <option value="govt">Govt. Official</option>
+                  <option value="private">Private Employee</option>
+                  <option value="self">Self Employed</option>
+                  <option value="student">Student</option>
+                  <option value="other">Other</option>
+                </select>
+              </td>
+
+            </tr>
+
+            
+            <tr style="vertical-align: top;">
+
+              <td><label for="message">Message</label></td>
+              <td>
+                <textarea name="message" id="message" cols="40" rows="6" required></textarea>
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td colspan="2">
+                <input type="checkbox" name="tnc" id="tnc" required>
+                <label for="tnc">I accept the terms and conditions</label>
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td><button type="reset">Reset</button></td>
+              <td style="text-align: right;"><button type="submit">Submit</button></td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </form>
+      <hr><hr><hr>
+
+    </body>
+</html>
