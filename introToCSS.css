@@ -1,0 +1,99 @@
+h1 {
+  color: rgb(15, 133, 162);
+}
+
+h3 {
+  color: rgb(83, 11, 91);
+}
+
+p {
+  color: rgb(192, 0, 212);
+}
+
+.redText {
+  color: rgb(229, 40, 87);
+  font-family: sans-serif;
+}
+
+#myHeader {
+  font-size: 48px;
+  font-family: sans-serif;
+}
+
+.container #myHeader {
+  color: red;
+}
+
+div + h3 {
+  color: green;
+}
+
+.myText1 + .myText2 {
+  color: orange;
+}
+
+.myInput[type="text"], input[type="email"] {
+  border: 10px solid green;
+}
+
+.container1 {
+  color: blueviolet;
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: 400;
+  text-align: justify;
+  text-decoration: line-through;
+  line-height: 48px;
+  width: 100%;
+  background-color: #222222;
+  background-image: url(//unsplash.it/512/512);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container2 {
+  padding: 100px;
+  color: orange;
+  font-size: 2em;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 0px black;
+  font-weight: 400;
+  text-align: center;
+  line-height: 48px;
+  background-color: #222222;
+  background-image: url(https://picsum.photos/id/1014/800/300);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container2 .wrong {
+  text-decoration: line-through;
+  background-color: #000;
+  color: red;
+  font-style: italic;
+}
+
+.container3 {
+  background-color: #d2d2d2;
+  padding: 12px 24px 36px 48px;
+  margin: 12px 24px 36px 48px;
+  border: 5px solid black;
+}
+
+.container4 {
+  background-color: #f2f2f2;
+  font-size: 24px;
+  padding: 24px;
+  margin: 12px;
+  border-top: 5px solid red;
+  border-bottom: 10px solid green;
+  border-right: 15px solid orange;
+  border-left: 20px solid purple;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 20 px;
+}
