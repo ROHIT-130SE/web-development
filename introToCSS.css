@@ -97,3 +97,26 @@ div + h3 {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 20 px;
 }
+
+div.knowMoreBtn {
+  background-color: rgb(255, 184, 52);
+  width: 100px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+div.knowMoreBtn:hover {
+  background-color: darkorange;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+}
+
+a:link {
+  color: white;
+}
